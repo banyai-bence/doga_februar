@@ -1,0 +1,123 @@
+{
+    "colspanHeaderArray": [
+        {
+            "name": "Évszám"
+        },
+        {
+            "name": "Események",
+            "colspan": 2
+        }
+    ],
+    "colspanDataArr": [
+        {
+            "evszam": "1914",
+            "esemeny1": "világháború kitörése",
+            "esemeny2": "Németország megtámadja a franciákat"
+        },
+         {
+            "evszam": "1915",
+            "esemeny1": "Gorlicei áttörés",
+            "esemeny2": "Gallipoli megtámadása"
+        },
+        {
+            "evszam": "1916",
+            "esemeny1": "Somme-i és verduni csata"
+        },
+        {
+            "evszam": "1917",
+            "esemeny1": "Az USA belép a háborúba"
+        }
+    ],
+    "colspanFormFieldList": [
+        {
+            "label": "Évszám",
+            "name": "evszam",
+            "id": "elso",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Esemény 1",
+            "name": "esemeny1",
+            "id": "masodik",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Esemény 2",
+            "name": "esemeny2",
+            "id": "harmadik",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "rowspanHeaderArray": [
+        {
+            "name": "Verscsoport"
+        },
+        {
+            "name": "Verscím"
+        },
+        {
+            "name": "Évszám"
+        }
+    ],
+    "rowspanTableArray": [
+        {
+            "verscsoport": "Istenes versek",
+            "vers1": "Adj már csendességet…",
+            "evszam1": "1951",
+            "vers2": "Végtelen irgalmú…",
+            "evszam2": "1954"
+        },
+        {
+            "verscsoport": "Szerelmes versek",
+            "vers1": "Kiben az kesergő Céliáról ír",
+            "evszam1": "1590-91"
+        },
+        {
+            "verscsoport": "Vitézi költészet",
+            "vers1": "Egy katonaének",
+            "evszam1": "1589",
+            "vers2": "Búcsúja hazájától",
+            "evszam2": "1589"
+        }
+    ],
+    "rowspanFormFieldList": [
+        {
+            "label": "Verscsoport",
+            "name": "verscsoport",
+            "id": "elso",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Verscím 1",
+            "name": "vers1",
+            "id": "masodik",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Évszám 1",
+            "name": "evszam1",
+            "id": "harmadik",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Verscím 2",
+            "name": "vers2",
+            "id": "negyedik",
+            "type": "text",
+            "required": false
+        },
+        {
+            "label": "Évszám 2",
+            "name": "evszam2",
+            "id": "otodik",
+            "type": "text",
+            "required": false
+        }
+    ]
+}
